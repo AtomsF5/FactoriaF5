@@ -3,16 +3,34 @@
 
 ## ¡Rompiendo Codigo!
 
-para trabajar con el repositorio debemos primero clonar el repositorio:
+- Para trabajar con el repositorio debemos primero clonar el repositorio:
 
 ```
 $ git clone https://github.com/AtomsF5/FactoriaF5.git
 ```
 
-se configura el archivo .env
+- Se configura el archivo .env y se genera la key con el siguiente comando:
+
 
 ```
 $ php artisan key:generate
 ```
 
+- Instalamos dependencias de nodejs con el siguiente comando:
 
+
+```
+$ npm install
+```
+
+- Corremos npm run dev
+
+```
+$ npm run dev
+```
+
+- Para correr el proyecto ejecutamos el siguiente comando:
+
+```
+$ php artisan serve
+```
