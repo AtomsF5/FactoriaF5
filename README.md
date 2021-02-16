@@ -3,5 +3,16 @@
 
 ## ¡Rompiendo Codigo!
 
+para trabajar con el repositorio debemos primero clonar el repositorio:
+
+```
+$ git clone https://github.com/AtomsF5/FactoriaF5.git
+```
+
+se configura el archivo .env
+
+```
+$ php artisan key:generate
+```
 
 
