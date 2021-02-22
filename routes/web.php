@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Rutas para el administrador:
+Route::group([
+    'middleware' => 'admin',
+    'prefix' => 'admin',
+    'namespace' => 'Admin'
+], function() {
+    Route::get('/dashboard', 'Controller@index');
+});
