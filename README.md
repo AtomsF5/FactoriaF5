@@ -9,6 +9,12 @@
 ```
 $ git clone https://github.com/AtomsF5/FactoriaF5.git
 ```
+- Se instala composer:
+
+```
+$ composer install
+```
+
 
 - Se configura el archivo .env y se genera la key con el siguiente comando:
 
