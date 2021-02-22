@@ -9,6 +9,12 @@
 ```
 $ git clone https://github.com/AtomsF5/FactoriaF5.git
 ```
+- Se instala composer:
+
+```
+$ composer install
+```
+
 
 ```
 $ git status
