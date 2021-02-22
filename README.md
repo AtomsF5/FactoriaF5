@@ -10,6 +10,10 @@
 $ git clone https://github.com/AtomsF5/FactoriaF5.git
 ```
 
+```
+$ git status
+```
+
 - Se configura el archivo .env y se genera la key con el siguiente comando:
 
 
