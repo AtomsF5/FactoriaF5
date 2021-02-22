@@ -16,6 +16,10 @@ $ composer install
 ```
 
 
+```
+$ git status
+```
+
 - Se configura el archivo .env y se genera la key con el siguiente comando:
 
 
