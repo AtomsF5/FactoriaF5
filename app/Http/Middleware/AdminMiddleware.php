@@ -24,6 +24,6 @@ class AdminMiddleware
             return $next($$request);
 
             //MODIFICAR RUTA PRINCIPAL (ruta de dashboard)
-            return redirect('/');
+            return redirect('login');
     }
 }
